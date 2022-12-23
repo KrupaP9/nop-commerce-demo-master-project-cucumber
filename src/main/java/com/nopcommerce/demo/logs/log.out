@@ -233,3 +233,94 @@ No customer account found<br>
 2022-12-20 21:42:13 INFO  HomePage :59 - Clicking on register link Register<br>
 2022-12-20 21:42:61 INFO  HomePage :59 - Clicking on register link Register<br>
 2022-12-20 21:42:241 INFO  HomePage :59 - Clicking on register link Register<br>
+2022-12-23 12:07:845 INFO  HomePage :48 - Clicking on login link Log in<br>
+2022-12-23 12:07:755 INFO  LoginPage :42 - Getting welcome text Welcome, Please Sign In!<br>
+2022-12-23 12:08:845 INFO  HomePage :89 - Click on 'Computers' tab <br>
+2022-12-23 12:08:580 INFO  ComputerPage :33 - Get pageTitle text : Computers<br>
+2022-12-23 12:08:220 INFO  HomePage :89 - Click on 'Computers' tab <br>
+2022-12-23 12:08:836 INFO  ComputerPage :40 - Click on 'Desktops' link <br>
+2022-12-23 12:08:124 INFO  ComputerPage :33 - Get pageTitle text : Desktops<br>
+2022-12-23 12:08:502 INFO  HomePage :89 - Click on 'Computers' tab <br>
+2022-12-23 12:08:176 INFO  ComputerPage :40 - Click on 'Desktops' link <br>
+2022-12-23 12:08:791 INFO  DesktopsPage :61 - Click on product 'Build your own computer' : Build your own computer<br>
+2022-12-23 12:08:02 INFO  BuildYourOwnComputerPage :64 - Select processor '2.2 GHz Intel Pentium Dual-Core E2200'<br>
+2022-12-23 12:08:133 INFO  BuildYourOwnComputerPage :69 - Select RAM '2 GB'<br>
+2022-12-23 12:08:226 INFO  BuildYourOwnComputerPage :76 - Select HDD '320 GB'<br>
+2022-12-23 12:08:324 INFO  BuildYourOwnComputerPage :87 - Select HDD 'Vista Home [+$50.00]'<br>
+2022-12-23 12:08:421 INFO  BuildYourOwnComputerPage :97 - Select Software '[[ChromeDriver: chrome on WINDOWS (4ea5fe713eb67b3f754ff8cc91f49cfe)] -> xpath: //dd[@id='product_attribute_input_5']//li/label]'<br>
+2022-12-23 12:08:520 INFO  BuildYourOwnComputerPage :105 - Click on 'ADD TO CART' Button<br>
+2022-12-23 12:08:792 INFO  BuildYourOwnComputerPage :110 - Get productAdded Message : The product has been added to your shopping cart<br>
+2022-12-23 12:09:331 INFO  HomePage :89 - Click on 'Computers' tab <br>
+2022-12-23 12:09:06 INFO  ComputerPage :40 - Click on 'Desktops' link <br>
+2022-12-23 12:09:597 INFO  DesktopsPage :61 - Click on product 'Build your own computer' : Build your own computer<br>
+2022-12-23 12:09:737 INFO  BuildYourOwnComputerPage :64 - Select processor '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'<br>
+2022-12-23 12:09:886 INFO  BuildYourOwnComputerPage :69 - Select RAM '4GB [+$20.00]'<br>
+2022-12-23 12:09:51 INFO  BuildYourOwnComputerPage :76 - Select HDD '400 GB [+$100.00]'<br>
+2022-12-23 12:09:181 INFO  BuildYourOwnComputerPage :87 - Select HDD 'Vista Premium [+$60.00]'<br>
+2022-12-23 12:09:331 INFO  BuildYourOwnComputerPage :97 - Select Software '[[ChromeDriver: chrome on WINDOWS (daac6e9da288adcb4d39da0b41c5db71)] -> xpath: //dd[@id='product_attribute_input_5']//li/label]'<br>
+2022-12-23 12:09:429 INFO  BuildYourOwnComputerPage :105 - Click on 'ADD TO CART' Button<br>
+2022-12-23 12:09:568 INFO  BuildYourOwnComputerPage :110 - Get productAdded Message : The product has been added to your shopping cart<br>
+2022-12-23 12:09:73 INFO  HomePage :89 - Click on 'Computers' tab <br>
+2022-12-23 12:09:718 INFO  ComputerPage :40 - Click on 'Desktops' link <br>
+2022-12-23 12:09:419 INFO  DesktopsPage :61 - Click on product 'Build your own computer' : Build your own computer<br>
+2022-12-23 12:09:816 INFO  BuildYourOwnComputerPage :64 - Select processor '2.5 GHz Intel Pentium Dual-Core E2200 [+$15.00]'<br>
+2022-12-23 12:09:949 INFO  BuildYourOwnComputerPage :69 - Select RAM '8GB [+$60.00]'<br>
+2022-12-23 12:09:45 INFO  BuildYourOwnComputerPage :76 - Select HDD '320 GB'<br>
+2022-12-23 12:09:142 INFO  BuildYourOwnComputerPage :87 - Select HDD 'Vista Home [+$50.00]'<br>
+2022-12-23 12:09:291 INFO  BuildYourOwnComputerPage :97 - Select Software '[[ChromeDriver: chrome on WINDOWS (9790942603634ad841c36e82fd3faa7d)] -> xpath: //dd[@id='product_attribute_input_5']//li/label]'<br>
+2022-12-23 12:09:369 INFO  BuildYourOwnComputerPage :105 - Click on 'ADD TO CART' Button<br>
+2022-12-23 12:09:777 INFO  BuildYourOwnComputerPage :110 - Get productAdded Message : The product has been added to your shopping cart<br>
+2022-12-23 12:09:167 INFO  HomePage :48 - Clicking on login link Log in<br>
+2022-12-23 12:09:923 INFO  LoginPage :42 - Getting welcome text Welcome, Please Sign In!<br>
+2022-12-23 12:09:543 INFO  HomePage :48 - Clicking on login link Log in<br>
+2022-12-23 12:09:264 INFO  LoginPage :48 - Enter email testprime@gmail.com to email field <br>
+2022-12-23 12:09:415 INFO  LoginPage :53 - Enter password testprime123 to password field <br>
+2022-12-23 12:09:892 INFO  LoginPage :58 - Clicking on Login Button <br>
+2022-12-23 12:09:967 INFO  LoginPage :63 - Getting error message : Login was unsuccessful. Please correct the errors and try again.
+No customer account found<br>
+2022-12-23 12:09:382 INFO  HomePage :59 - Clicking on register link Register<br>
+2022-12-23 12:09:259 INFO  RegisterPage :114 - Enter Firstname : 'Priya' to firstName field<br>
+2022-12-23 12:09:397 INFO  RegisterPage :120 - Enter Lastname : 'Patel' to lastName field<br>
+2022-12-23 12:09:544 INFO  RegisterPage :134 - Enter Email : 'priyapatel11@gmail.com' to email field<br>
+2022-12-23 12:09:03 INFO  RegisterPage :128 - Select day : '10', month : 'April', year : '2000'<br>
+2022-12-23 12:09:148 INFO  RegisterPage :140 - Enter Password : 'password123' to password field<br>
+2022-12-23 12:09:282 INFO  RegisterPage :146 - Enter Confirm password : 'password123' to confirm password field<br>
+2022-12-23 12:09:292 INFO  RegisterPage :150 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:199 INFO  RegisterPage :174 - Click on 'CONTINUE' button<br>
+2022-12-23 12:09:752 INFO  HomePage :48 - Clicking on login link Log in<br>
+2022-12-23 12:09:334 INFO  LoginPage :48 - Enter email priyapatel11@gmail.com to email field <br>
+2022-12-23 12:09:463 INFO  LoginPage :53 - Enter password password123 to password field <br>
+2022-12-23 12:09:330 INFO  LoginPage :58 - Clicking on Login Button <br>
+2022-12-23 12:09:422 INFO  HomePage :76 - Checking is logOutLink displayed : Log out<br>
+2022-12-23 12:09:959 INFO  HomePage :59 - Clicking on register link Register<br>
+2022-12-23 12:09:718 INFO  RegisterPage :114 - Enter Firstname : 'Priya' to firstName field<br>
+2022-12-23 12:09:845 INFO  RegisterPage :120 - Enter Lastname : 'Patel' to lastName field<br>
+2022-12-23 12:09:992 INFO  RegisterPage :134 - Enter Email : 'priyapatel22@gmail.com' to email field<br>
+2022-12-23 12:09:387 INFO  RegisterPage :128 - Select day : '10', month : 'April', year : '2000'<br>
+2022-12-23 12:09:517 INFO  RegisterPage :140 - Enter Password : 'password123' to password field<br>
+2022-12-23 12:09:650 INFO  RegisterPage :146 - Enter Confirm password : 'password123' to confirm password field<br>
+2022-12-23 12:09:654 INFO  RegisterPage :150 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:517 INFO  RegisterPage :174 - Click on 'CONTINUE' button<br>
+2022-12-23 12:09:86 INFO  HomePage :48 - Clicking on login link Log in<br>
+2022-12-23 12:09:667 INFO  LoginPage :48 - Enter email priyapatel22@gmail.com to email field <br>
+2022-12-23 12:09:794 INFO  LoginPage :53 - Enter password password123 to password field <br>
+2022-12-23 12:09:590 INFO  LoginPage :58 - Clicking on Login Button <br>
+2022-12-23 12:09:635 INFO  HomePage :69 - Clicking on logOutLink : Log out<br>
+2022-12-23 12:09:476 INFO  HomePage :54 - Checking is loginLink displayed : Log in<br>
+2022-12-23 12:09:45 INFO  HomePage :59 - Clicking on register link Register<br>
+2022-12-23 12:09:164 INFO  HomePage :59 - Clicking on register link Register<br>
+2022-12-23 12:09:797 INFO  RegisterPage :150 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:53 INFO  RegisterPage :160 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:137 INFO  RegisterPage :160 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:235 INFO  RegisterPage :160 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:346 INFO  RegisterPage :160 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:492 INFO  RegisterPage :160 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:678 INFO  HomePage :59 - Clicking on register link Register<br>
+2022-12-23 12:09:487 INFO  RegisterPage :114 - Enter Firstname : 'Janvi' to firstName field<br>
+2022-12-23 12:09:643 INFO  RegisterPage :120 - Enter Lastname : 'Patel' to lastName field<br>
+2022-12-23 12:09:807 INFO  RegisterPage :134 - Enter Email : 'janvipatel5@gmail.com' to email field<br>
+2022-12-23 12:09:297 INFO  RegisterPage :128 - Select day : '10', month : 'April', year : '2000'<br>
+2022-12-23 12:09:494 INFO  RegisterPage :140 - Enter Password : 'jpassword1' to password field<br>
+2022-12-23 12:09:664 INFO  RegisterPage :146 - Enter Confirm password : 'jpassword1' to confirm password field<br>
+2022-12-23 12:09:669 INFO  RegisterPage :150 - Click on 'REGISTER' button<br>
+2022-12-23 12:09:673 INFO  RegisterPage :169 - Get your reg completed text : Your registration completed<br>

@@ -7,7 +7,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.CacheLookup;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.testng.Reporter;
 
 import java.util.List;
 
@@ -95,7 +94,7 @@ public class RegisterPage extends Utility {
     public String getRegisterText() {
         String message = getTextFromElement(registerText);
 
-        Reporter.log("Get registerText : " + registerText.getText() + "<br>");
+        log.info("Get registerText : " + registerText.getText() + "<br>");
         return message;
     }
 
@@ -103,7 +102,7 @@ public class RegisterPage extends Utility {
         for (WebElement radio : genderRadios) {
             if (radio.getText().contains(gender)) {
 
-                Reporter.log("Select '" + gender + "' radio button" + "<br>");
+                log.info("Select '" + gender + "' radio button" + "<br>");
                 clickOnElement(radio);
                 break;
             }
@@ -112,13 +111,13 @@ public class RegisterPage extends Utility {
 
     public void enterFirstName(String firstName) {
         sendTextToElement(firstNameField, firstName);
-        Reporter.log("Enter Firstname : '" + firstName + "' to firstName field" + "<br>");
+        log.info("Enter Firstname : '" + firstName + "' to firstName field" + "<br>");
     }
 
     public void enterLastName(String lastName) {
         sendTextToElement(lastNameField, lastName);
 
-        Reporter.log("Enter Lastname : '" + lastName + "' to lastName field" + "<br>");
+        log.info("Enter Lastname : '" + lastName + "' to lastName field" + "<br>");
     }
 
     public void selectDateOfBirth(String day, String month, String year) {
@@ -126,29 +125,29 @@ public class RegisterPage extends Utility {
         selectByVisibleTextFromDropDown(dateOfBirthMonth, month);
         selectByVisibleTextFromDropDown(dateOfBirthYear, year);
 
-        Reporter.log("Select day : '" + day + "', month : '" + month + "', year : '" + year + "'" + "<br>");
+        log.info("Select day : '" + day + "', month : '" + month + "', year : '" + year + "'" + "<br>");
     }
 
     public void enterEmail(String email) {
         sendTextToElement(emailField, email);
 
-        Reporter.log("Enter Email : '" + email + "' to email field" + "<br>");
+        log.info("Enter Email : '" + email + "' to email field" + "<br>");
     }
 
     public void enterPassword(String password) {
         sendTextToElement(passwordField, password);
 
-        Reporter.log("Enter Password : '" + password + "' to password field" + "<br>");
+        log.info("Enter Password : '" + password + "' to password field" + "<br>");
     }
 
     public void enterConfirmPassword(String confPassword) {
         sendTextToElement(confirmPasswordField, confPassword);
 
-        Reporter.log("Enter Confirm password : '" + confPassword + "' to confirm password field" + "<br>");
+        log.info("Enter Confirm password : '" + confPassword + "' to confirm password field" + "<br>");
     }
 
     public void clickOnRegisterButton() {
-        Reporter.log("Click on 'REGISTER' button" + "<br>");
+        log.info("Click on 'REGISTER' button" + "<br>");
         clickOnElement(registerBtn);
     }
 
@@ -158,7 +157,7 @@ public class RegisterPage extends Utility {
             if (message.getAttribute("data-valmsg-for").equals(fieldName)) {
                 validationMessage = message.getText();
 
-                Reporter.log("Click on 'REGISTER' button" + "<br>");
+                log.info("Click on 'REGISTER' button" + "<br>");
                 break;
             }
         }
@@ -167,12 +166,12 @@ public class RegisterPage extends Utility {
 
     public String getYourRegCompletedText() {
         String message = getTextFromElement(yourRegCompletedText);
-        Reporter.log("Get your reg completed text : " + yourRegCompletedText.getText() + "<br>");
+        log.info("Get your reg completed text : " + yourRegCompletedText.getText() + "<br>");
         return message;
     }
 
     public void clickOnContinueButton() {
-        Reporter.log("Click on 'CONTINUE' button" + "<br>");
+        log.info("Click on 'CONTINUE' button" + "<br>");
         clickOnElement(continueBtn);
     }
 

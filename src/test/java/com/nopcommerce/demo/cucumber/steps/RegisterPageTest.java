@@ -70,7 +70,7 @@ public class RegisterPageTest {
         new RegisterPage().selectGender("female");
         new RegisterPage().enterFirstName("Priya");
         new RegisterPage().enterLastName("Patel");
-        new RegisterPage().enterEmail("priyapatel11@gmail.com");
+        new RegisterPage().enterEmail("priyapatel111@gmail.com");
         new RegisterPage().selectDateOfBirth("10","April","2000");
         new RegisterPage().enterPassword("password123");
         new RegisterPage().enterConfirmPassword("password123");
@@ -83,7 +83,7 @@ public class RegisterPageTest {
         new RegisterPage().selectGender("female");
         new RegisterPage().enterFirstName("Priya");
         new RegisterPage().enterLastName("Patel");
-        new RegisterPage().enterEmail("priyapatel22@gmail.com");
+        new RegisterPage().enterEmail("priyapatel222@gmail.com");
         new RegisterPage().selectDateOfBirth("10","April","2000");
         new RegisterPage().enterPassword("password123");
         new RegisterPage().enterConfirmPassword("password123");

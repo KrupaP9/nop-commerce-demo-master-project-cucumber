@@ -21,7 +21,7 @@ Feature: Login Page Test
     When I click on register link
     And I enter all register information
     And I click on login link
-    And I enter valid email "priyapatel11@gmail.com"
+    And I enter valid email "priyapatel111@gmail.com"
     And I enter valid password "password123"
     And I click on login button
     Then I should see logout link
@@ -32,7 +32,7 @@ Feature: Login Page Test
     When I click on register link
     And I enter all the register information
     And I click on login link
-    And I enter valid email "priyapatel22@gmail.com"
+    And I enter valid email "priyapatel222@gmail.com"
     And I enter valid password "password123"
     And I click on login button
     And I click on logout button

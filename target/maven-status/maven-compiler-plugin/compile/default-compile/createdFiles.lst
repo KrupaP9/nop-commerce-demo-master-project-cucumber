@@ -1,0 +1,10 @@
+com\nopcommerce\demo\cucumber\pages\RegisterPage.class
+com\nopcommerce\demo\cucumber\pages\DesktopsPage.class
+com\nopcommerce\demo\cucumber\pages\HomePage.class
+com\nopcommerce\demo\cucumber\utility\Utility.class
+com\nopcommerce\demo\cucumber\pages\LoginPage.class
+com\nopcommerce\demo\cucumber\utility\Utility$1.class
+com\nopcommerce\demo\cucumber\pages\BuildYourOwnComputerPage.class
+com\nopcommerce\demo\cucumber\browserfactory\ManageBrowser.class
+com\nopcommerce\demo\cucumber\pages\ComputerPage.class
+com\nopcommerce\demo\cucumber\propertyreader\PropertyReader.class

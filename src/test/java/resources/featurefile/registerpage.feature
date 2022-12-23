@@ -21,7 +21,7 @@ Feature: Register Page Test
     And I select gender "female"
     And I enter first name "Janvi"
     And I enter last name "Patel"
-    And I enter email "janvipatel5@gmail.com"
+    And I enter email "janvipatel6@gmail.com"
     And I select day "10", month "April", year "2000"
     And I enter password "jpassword1"
     And I enter confirm password "jpassword1"

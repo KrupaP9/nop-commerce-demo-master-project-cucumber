@@ -1,0 +1,7 @@
+com\nopcommerce\demo\cucumber\runner\SanityRunner.class
+com\nopcommerce\demo\cucumber\steps\ComputerSteps.class
+com\nopcommerce\demo\cucumber\runner\RegressionRunner.class
+com\nopcommerce\demo\cucumber\steps\LoginTestSteps.class
+com\nopcommerce\demo\cucumber\Hooks.class
+com\nopcommerce\demo\cucumber\steps\RegisterPageTest.class
+com\nopcommerce\demo\cucumber\runner\SmokeRunner.class
